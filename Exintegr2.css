@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(224, 232, 255);
+    font-family:'League Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img.screen{
+    height: 150px;
+    width: 300px;
+    border-top-left-radius : 25px;
+    border-top-right-radius: 25px;
+}
+div.white{
+    background-color: white;
+}
+
+
+section.frontground{
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    border-style: inset;
+    border-style: none;
+    border-radius: 25px;
+}
+h1.title{
+    text-align: center;   
+}
+p.intro{
+    text-align: center;
+}
+
+div.payment{
+    background-color:rgb(224, 232, 255);
+    border-radius: 8px;
+    margin: 0 20px;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+p.proceed{
+    text-align: center;
+    background-color:blueviolet;
+    text-decoration-line: none;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 12px;
+
+}
+p.cancel{
+    text-align: center;
+    text-decoration-line: none;
+}
